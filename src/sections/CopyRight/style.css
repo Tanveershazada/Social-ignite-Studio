@@ -1,0 +1,51 @@
+.CopyRight__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.CopyRight__first{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #868686;
+}
+
+.CopyRight__second{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+  
+}
+.CopyRight__second a{
+    color: #868686;
+}
+.CopyRight__second a:hover{
+    color: #3aa9ea;
+}
+.CopyRight__second ul{
+    display: flex;
+    gap: 1rem;
+}
+.CopyRight__hr{
+    width: 30px;
+}
+
+.CopyRight__second ul{
+    list-style: none;
+}
+
+.CopyRight__second a{
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    
+    .Copyright__wrapper {
+        justify-content: start !important;
+    }
+    .Copyright__wrapper ul {
+        padding: 0;
+    }
+ }

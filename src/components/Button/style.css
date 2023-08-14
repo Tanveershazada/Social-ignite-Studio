@@ -1,0 +1,26 @@
+.button__global {
+    border: none;
+    padding: 14px 40px;
+    transition: ease-in-out all 0.5s;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn__primary {
+    background-color: #3146cb;
+    color: #fff;
+}
+
+.btn__primary:hover {
+    background-color: #3aa9ea;
+}
+
+.btn__secoundry {
+    background-color: #fff;
+    color: #3aa9ea;
+}
+
+.btn__secoundry:hover {
+    background-color: #3aa9ea;
+    color: #fff;
+}

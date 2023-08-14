@@ -1,0 +1,33 @@
+.About__section {
+    background-image: url('./../../assets/AboutBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+  
+}
+
+.About__section .overlay {
+    display: flex;
+    align-items: center;
+    background-color: rgba(49, 70, 203, 0.5); 
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: "background" 0.3s, border-radius 0.3s, opacity 0.3s;
+    
+}
+
+.About__title title{
+    font-size: 67px;
+    font-weight: 800;
+    line-height: 1em;
+    letter-spacing: -1.5px;
+}
+
+
+
+
+
+

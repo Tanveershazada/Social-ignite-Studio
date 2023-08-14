@@ -1,0 +1,91 @@
+.About-value__section{
+    background-color: #3146cb;
+    min-height: 100vh;
+     color: #ffffff;
+     padding: 100px 0;
+     margin-top: 20px;
+ }
+ 
+ .About-value__main{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+ }
+ 
+ .About-valueTitle-one{
+   font-size: 21px;
+   font-weight: 700;
+   text-transform: none;
+   color: #3aa9ea;
+ }
+ 
+ .About-valuePara-one{
+     color: #ffffff;
+ }
+ 
+ .About-value__icon-one{
+     position: relative;
+     display: block;
+     background-color: #ffffff;
+     fill: #3146cb;
+     color: #3146cb;
+     font-size: 42px;
+     height: 70px;
+     width: 125px;
+     text-align: center;
+     border-radius: 50%;
+ }
+ 
+ .About-valueIcon__main{
+     height: 30px;
+     width: 30px;
+ }
+ 
+ .About-value__section .ValueImg{
+     width: 100%;
+     height: 700px;
+     object-fit: cover;
+     object-position: center center;
+     transition-duration: 1s;
+     margin-top: 30px;
+     
+ }
+ 
+ .aboutValue__title{
+    background-color: #253499;
+    padding: 3em 3em 3em 3em;
+    min-height: 100%;
+ }
+ .aboutvalue-one h2{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.3em;
+ }
+ .aboutvalue-one span{
+     color: #ffffff;
+ }
+
+ .AboutValue__btn{
+    width: 250px;
+ }
+
+ @media (max-width: 768px) {
+    .About-value__section {
+        padding: 40px 0;
+    }
+
+    .About-value__icon-one{
+        flex: 2;
+    }
+    .About-carousal__value {
+        flex: 7.4;
+    }
+    .AboutValueImg{
+        margin-top: 0;
+    }
+
+}
+
+

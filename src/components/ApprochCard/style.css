@@ -1,0 +1,65 @@
+.approch__card__wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.approch__card__wrapper .approch__card{
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    text-align: center;
+    padding: 2em;
+   
+}
+
+.approch__card__wrapper .icon__wrapper svg{
+    font-size: 35px;
+    padding: 0.5em;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: #3146cb;
+    border: none;
+    color: #ffffff;
+}
+
+.approch__card__wrapper .card__title{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-top: 23px;
+}
+
+.approch__card__wrapper .card__para{
+    color:#938787;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 15px;
+    line-height: 1.5em;
+    word-spacing: 0.1em;
+    margin-bottom: 0;
+}
+
+
+.approch__card__wrapper .hyper{
+    text-align: center;
+    padding-top: 130px;
+}
+.approch__card__wrapper .main__title{
+    color: #292929;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: -0.5px;
+}
+.approch__card__wrapper .main__paragrafh{
+    text-align: center;
+    padding-top: 15px;
+    /* font-size: 14px; */
+    font-weight: 400;
+}

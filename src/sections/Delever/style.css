@@ -1,0 +1,42 @@
+.Delever__section{
+    min-height: 100vh;
+    padding: 100px 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+/* .Delever__heading{
+    color: #292929;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+} */
+.Delever__section .delever__image{
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
+ 
+}
+
+.Delever__bubble{
+    background-color: #fff !important;
+    margin-top: 7.5rem;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
+}
+.Delever__bubble h1{
+    margin-top: 30px;
+    color: #3146cb;
+   
+}
+
+.Delever__bubble p{
+    color: #292929;
+}
+
+@media (max-width: 768px) {
+    .Delever__section {
+        
+    padding: 30px 0;
+    }
+}

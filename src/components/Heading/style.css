@@ -1,0 +1,38 @@
+.heading__wrapper .heading__label {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.heading__wrapper .heading__label.blue {
+  color: rgba(49, 70, 203, 1);
+}
+
+.heading__wrapper .desc {
+  font-size: 16px;
+}
+
+.heading__wrapper h1.large {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.heading__wrapper h1.medium {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .heading__wrapper h1.large {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 12px;
+  }
+  .heading__wrapper h1.medium {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+.information__section{
+    min-height: 90vh;
+    padding: 100px 0;
+    background-image: linear-gradient(180deg, #f4f4f4 0%, #f1f1f1 100%);
+}
+
+.infomation__card{
+    min-height: 100%;
+   
+}
+
+

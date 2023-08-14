@@ -1,0 +1,12 @@
+.services__section {
+    background-image: linear-gradient(180deg, #f4f4f4 0%, #ffffff 100%);
+    /* width: calc(100% - 180px); */
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+@media (max-width: 768px) {
+    .services__section {
+        padding: 40px 0;
+    }
+}

@@ -1,0 +1,165 @@
+.logo__img img{
+    color: #000;
+    height: 70px;
+    width: 70px;
+    align-items: center;
+}
+
+.logo__img{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo__title p{
+    margin-top: 19px;
+    margin-left: 7px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* 
+.Footer-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    align-items: center;
+    padding: 0 100px;
+} */
+
+.Footer__hyper{
+    margin-top: -45px;
+}
+
+.Footer__container{
+    margin-top: 70px;
+}
+.Footer__compony a{
+    text-decoration: none;
+}
+
+.Footer__services a{
+    text-decoration: none;
+
+}
+.Footer__support a{
+    text-decoration: none;
+}
+
+.Footer__container .logo__img{
+    vertical-align: middle;
+}
+
+.Footer__container .Footer__para{
+    font-size: 16px;
+    text-transform: none;
+    line-height: 1.5em;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.Footer__icon{
+    display: flex;
+    column-gap: 5px;
+    row-gap: 0px;
+    justify-content: initial center;
+    cursor: pointer;
+    gap: 1rem;
+    margin-bottom: 20px;
+
+}
+.Footer__icon svg{
+    /* background-color: #3146cb1a; */
+    color: #3146cb;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    background-color: #e1e2e9;
+}
+
+.Footer__icon svg:hover{
+    background-color:  #3146cb;
+color: #e1e2e9;
+}
+
+
+
+
+.Footer__services h1{
+    color: #292929;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 1.3em;
+}
+
+.Footer__services ul{
+    padding: 0;
+}
+
+.Footer__services li{
+    padding-bottom: 5px;
+
+}
+.Footer__services a{
+    color: #868686;
+
+}
+
+.Footer__services a:hover{
+    color: #3aa9ea;
+}
+.Footer__support h1{
+    color: #292929;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 1.3em;
+}
+
+.Footer__support ul{
+    padding: 0;
+}
+
+.Footer__support li{
+    padding-bottom: 5px;
+}
+
+.Footer__support a{
+    color: #868686;
+
+}
+
+.Footer__support a:hover{
+    color: #3aa9ea;
+}
+
+
+.Footer__compony h1{
+    color: #292929;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 1.3em;
+}
+.Footer__compony ul{
+    padding: 0;
+}
+.Footer__compony li{
+    padding-bottom: 5px;
+}
+
+.Footer__compony a{
+    color: #868686;
+
+}
+
+.Footer__compony a:hover{
+    color: #3aa9ea;
+}
+
+.Footer__hr{
+    margin-top: 50px;
+    color: cde#dcd;
+}

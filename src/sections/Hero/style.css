@@ -1,0 +1,84 @@
+.hero__section {
+    background-image: url('./../../assets/bg-home.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero__section .overlay {
+    display: flex;
+    align-items: center;
+    background: rgba(49, 70, 203, 0.8);
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero__section .overlay img.home__image {
+    position: absolute;
+    bottom: 0;
+}
+
+.bubble__global {
+    background: #fff;
+    width: 150px;
+    position: absolute;
+    z-index: 9;
+    border-radius: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.bubbles__wrapper {
+    position: relative;
+}
+
+.bubbles__wrapper .bubble__one {
+    top: -200px;
+    left: 30px;
+}
+
+.bubbles__wrapper .bubble__one h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    color: #3aa9ea;
+}
+
+.bubbles__wrapper .bubble__two {
+    top: 130px;
+    left: -60px;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    background-color: #3aa9ea;
+}
+
+.bubbles__wrapper .bubble__three {
+    top: -250px;
+    right: -150px;
+    color: rgba(49, 70, 203, 1);
+    width: 200px;
+    height: 200px;
+}
+
+.bubbles__wrapper .bubble__three h1, 
+.bubbles__wrapper .bubble__two h1 {
+    font-size: 3.8rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.bubbles__wrapper .bubble__three p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.bubbles__wrapper .bubble__two p {
+    font-size: 16px;
+    font-weight: 600;
+}
