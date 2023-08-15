@@ -23,6 +23,10 @@ function App() {
       element: <HomePage />,
     },
     {
+      path: "/Social-ignite-Studio",
+      element: <HomePage />,
+    },
+    {
       path: "/about",
       element: <About />,
     },
@@ -38,7 +42,7 @@ function App() {
   return (
     <div className="App">
       
-      <Header/>
+       <Header/>
       <RouterProvider router={router}></RouterProvider>
       <Signup />
       <FooterSection />
