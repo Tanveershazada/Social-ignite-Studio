@@ -37,7 +37,8 @@ const ServicesSection = () => {
             />
           </Col>
         </Row>
-       <div data-aos="flip-right"  data-aos-duration="2000">
+       <div  data-aos="fade-up"
+     data-aos-duration="3000">
        <Row>
           
           {services.map((item) => (

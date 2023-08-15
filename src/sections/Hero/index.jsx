@@ -18,7 +18,7 @@ const HeroSection = () => {
               <Heading
                 className="text-white"
                 type="large"
-                label="WELCOME TO DIGIMARK"
+                label="WELCOME TO social ignite studio"
                 title="Drive Growth with Digital Strategies."
                 desc="60% Increase in Sales Conversions: Accelerate Growth with Our Proven Digital Marketing Strategies!"
               />
